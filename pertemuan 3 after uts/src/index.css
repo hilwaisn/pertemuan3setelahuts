@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.item-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .item-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .item-price {
+    font-size: 16px;
+    color: #888;
+  }
